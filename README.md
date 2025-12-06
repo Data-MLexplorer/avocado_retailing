@@ -1,7 +1,4 @@
 
-# Avocado Retailing
-
-I will be working on Avocado retailing and performing the following steps.
 
 ## Project summary
 This project analyzes avocado sales data to deliver both predictive and prescriptive insights for suppliers and distributors. Using historical sales and price data we will forecast future demand for a selected product in three markets, and prescribe the optimal sourcing strategy (domestic, imported or combined) for each market.
@@ -43,29 +40,30 @@ extra large Hass Avocados (~10-15 oz)
    - Validate fields, handle missing values, and harmonize formats (dates, geography, product naming).
 
 2. Exploratory data analysis (EDA)
-   - Time series visualization, seasonality decomposition, market and SKU comparisons, outlier detection.
+   - Time series visualization, seasonality decomposition, outlier detection , Identify key regions
+     
 
 3. Feature engineering
    - Create calendar features (month, week, holidays), lag features, rolling aggregates, price and promotion indicators, weather or macro indicators if available.
 
 4. Modeling (predictive)
    - Baseline: naive and seasonal naive models.
-   - Classical: SARIMA / ETS family models.
+   - Classical: Auto Regressive Model to predict avocado volume for next 1 year.
    - Modern: Prophet, TBATS (if complex seasonality), and tree-based models or gradient boosting on engineered features.
    - Deep learning (optional): LSTM/GRU models for series with complex patterns.
    - Model selection by backtesting (rolling origin), cross-validation on time series, and holdout sets.
 
 5. Evaluation
-   - Use appropriate time-series metrics: MAE, RMSE, MAPE (with caveats), and prediction interval coverage.
+   - Use appropriate time-series metrics: MAE(Mean Absolute Error),MSE(Mean Squared Error), RMSE(RootMeanSquaredError), MAPE(MeanAbsolutePercentError).
    - Present visual diagnostics and forecast uncertainty.
 
 6. Prescriptive analysis
-   - Build cost models for domestic vs imported supply (procurement, transport, tariffs, spoilage risk).
+   - Minimize the Shipping Costs for Hass Avocados
    - Formulate an optimization (e.g., linear programming or integer programming) to choose supplier mix subject to demand forecasts and constraints.
-   - Run scenario and sensitivity analysis (price shocks, lead-time disruptions).
+   - Use Forecasted Data to estimate Market's Demand
 
 7. Deliverables
    - Cleaned dataset and reproducible data pipeline.
    - Jupyter notebooks / scripts with EDA, modeling, and evaluation.
    - Forecasts and an interactive dashboard or visual reports.
-   - Prescriptive optimization notebooks and a clear recommendation report with assumptions and sensitivity results.
+   - Prescriptive optimization Excel File.
