@@ -12,6 +12,15 @@ This project analyzes avocado sales data to deliver both predictive and prescrip
 
 (We will evaluate both datasets and select the one(s) with the highest data quality for the chosen markets + product.)
 
+#plu4046
+small/medium Hass Avocados (~3-5 oz)
+
+#plu4225
+large Hass Avocados (~8-10 oz)
+
+#plu4770
+extra large Hass Avocados (~10-15 oz)
+
 ## Objectives
 1. Predictive analytics
    - Forecast avocado sales (units / volume) for one selected product in three chosen markets (cities) for the next year.
