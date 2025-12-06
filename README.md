@@ -5,7 +5,9 @@ This project analyzes avocado sales data to deliver both predictive and prescrip
 
 ## Data sources
 - Kaggle — Avocado prices and sales volume (2015–2023): https://www.kaggle.com/datasets/vakhariapujan/avocado-prices-and-sales-volume-2015-2023  
-- Kaggle — Avocado augmented dataset: https://www.kaggle.com/datasets/mathurinache/avocado-augmented
+- For Prescriptive Analysis used this USDA data for reference
+   (https://www.ams.usda.gov/sites/default/files/media/RTQ2ndQuarter2024.pdf)
+    https://www.ams.usda.gov/mnreports/fvwretail.pdf
 
 (We will evaluate both datasets and select the one(s) with the highest data quality for the chosen markets + product.)
 
