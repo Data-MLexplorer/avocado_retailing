@@ -51,9 +51,8 @@ extra large Hass Avocados (~10-15 oz)
 4. Modeling (predictive)
    - Baseline: naive and seasonal naive models.
    - Classical: Auto Regressive Model to predict avocado volume for next 1 year.
-   - Modern: Prophet, TBATS (if complex seasonality), and tree-based models or gradient boosting on engineered features.
-   - Deep learning (optional): LSTM/GRU models for series with complex patterns.
-   - Model selection by backtesting (rolling origin), cross-validation on time series, and holdout sets.
+   
+
 
 5. Evaluation
    - Use appropriate time-series metrics: MAE(Mean Absolute Error),MSE(Mean Squared Error), RMSE(RootMeanSquaredError), MAPE(MeanAbsolutePercentError).
